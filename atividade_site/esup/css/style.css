@@ -1,0 +1,104 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.opçoes {
+    display: flex;
+    flex-direction: row;
+    gap: 60px 200px;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto Mono', monospace;  
+    list-style: none;
+    float: left;
+    position: relative;
+    padding: 0px 50px 10px 0px;
+}
+.opçoes a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: #1f3c75;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+.opçoes a:hover ::after{
+    width: 150%;
+}
+
+.opçoes li{
+    position: relative;
+    float: left;
+    border-right: #1f3c75;
+}
+.opçoes li a{
+    color: #1f3c75; 
+    text-decoration: none; 
+    padding: 5px 7px; 
+    display: block;
+}
+.opçoes li ul{
+    position: absolute;
+    top: 25px;
+    left: 0%;
+    background-color: white;
+    display: none;
+}
+.opçoes li:hover ul, .opçoes li.over ul{display: block;}
+.opçoes li ul li{
+    border: 1px;
+    display: block;
+    width: 250px;
+    transition: o.10s ease-in-out;
+}
+
+.main01{
+    background-color: #1f3c75;
+    padding: 50px;
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    height: auto;
+}
+.conteudo-principal,
+.imagem-principal{
+    display: flex;
+    align-items: stretch;
+    padding: 0;
+
+}
+
+.titulo-principal{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+    font-size: 50px;
+    font-family: Sans-serif; 
+    color: aliceblue;
+}
+
+
+.footer{
+    background-color: blueviolet;
+    padding: 50px;
+}
