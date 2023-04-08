@@ -40,9 +40,11 @@ body{
     bottom: 0;
     left: 0;
     transition: 0.5s ease-in-out;
+    gap: 10px;
 }
 .opçoes a:hover ::after{
     width: 150%;
+
 }
 
 .opçoes li{
@@ -62,6 +64,8 @@ body{
     left: 0%;
     background-color: white;
     display: none;
+
+
 }
 .opçoes li:hover ul, .opçoes li.over ul{display: block;}
 .opçoes li ul li{
@@ -79,7 +83,6 @@ body{
     width: auto;
     height: auto;
 }
-.conteudo-principal,
 .imagem-principal{
     display: flex;
     align-items: stretch;
@@ -90,11 +93,37 @@ body{
 .titulo-principal{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 10px;
     gap: 20px;
     font-size: 50px;
-    font-family: Sans-serif; 
     color: aliceblue;
+}
+.conteudo-principal h2{
+    font-size: 25px;
+    display: inline;
+    justify-content: end;
+    font-weight: normal;
+}
+.video, .listas{
+    margin: 1rem;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+
+  
+}
+.listas{
+    display: flex;
+    flex-direction: row;
+}
+.lista-titulo {
+    font-size: 40px;
+    list-style: none;
+}
+.conteudo-lista{
+    font-size: 25px;
+    list-style: none;
+    margin:15px ;
 }
 
 
