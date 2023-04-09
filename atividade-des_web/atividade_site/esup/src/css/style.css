@@ -141,9 +141,10 @@ body{
     padding: 25px;
     background-color: #1f3c75;
 }
+
 .footer a:visited{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .footer a:hover{
-    color: aliceblue;
+    color: #6a6b6c;
 }
