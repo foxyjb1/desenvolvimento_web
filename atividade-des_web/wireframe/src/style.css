@@ -12,7 +12,7 @@ body{
 }
 .conteudo-principal{
     background-color: rgb(94, 189, 158) ;
-    height: 600px;
+    height: 1000px;
     width: auto;
     padding: 10px;
     margin-top: 20px;
@@ -21,6 +21,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    column-gap: 20px;
     
 }
 .imagem-interativa{
@@ -37,28 +38,28 @@ body{
     margin: 5px;
 }
 
-.cu{
+.eu{
     background-color:rgb(0, 39, 26) ;
     height: 600px;
     width: auto;
     margin: auto;
     padding: 10px;
     display: flex;
-    align-items: stretch;
-    justify-content: space-evenly 10px 20px;
+    align-items: center;
+    justify-content: center ;
     flex-direction: row;
     
 }
-.cu1{
+.foto{
     background-color: darkgray;
-    height: 500px;
+    height: 570px;
     width: 200px;
     margin: 10px;
 }
 
-.cu3{
+.conteudo{
     background-color: darkgray;
-    height: 500px;
+    height: 570px;
     width: 500px;
     margin: 10px;
 }
